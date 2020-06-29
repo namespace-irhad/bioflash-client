@@ -1,0 +1,14 @@
+.pushable:not(body) {
+  transform: none;
+}
+
+.pushable:not(body) > .ui.sidebar,
+.pushable:not(body) > .fixed,
+.pushable:not(body) > .pusher:after {
+  position: fixed;
+  z-index: 10;
+}
+
+.sidebar-top-pusher {
+  min-height: 70px;
+}

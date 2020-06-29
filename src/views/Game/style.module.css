@@ -1,0 +1,110 @@
+.gameBackground {
+    background-image: url('../../assets/images/svg/gameBackground.svg');
+    background-size: contain;
+    border: 2px solid #9a1f40;
+}
+
+.gameStatusContainer {
+    margin: auto;
+    padding: 2em;
+    background-color: #2eb872;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gameStatusContainer>h2 {
+    text-align: center;
+    margin: auto;
+}
+
+.gameInformationContainer {
+    background-color: #2eb872;
+    color: white;
+    margin: auto;
+    margin: 20px 0 10px;
+    height: 150px;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.itemInformationContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.imageInformationContainer {
+
+    flex: none;
+    margin-right: 10px;
+}
+
+.itemDescription {
+    border-bottom: 1px solid;
+    margin-right: 5px;
+}
+
+.informationHeader {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.answerGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitButton {
+    flex: 1;
+}
+
+.answerDropdown {
+    margin-right: 5px;
+    flex: 10;
+}
+
+.gameEndContainer {
+    position: relative;
+    height: 80vh;
+    margin-top: 40px;
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 2px solid #fefece;
+    padding: 20px;
+    box-shadow: -5px 5px 10px 0px rgb(7, 24, 15);
+}
+
+.buttonsEnd {
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.gameEndHeader {
+    background-color: #feffe4;
+    padding: 5px;
+    box-shadow: -2px 2px 5px 0px black;
+}
+
+.correctAnswerList {
+    background-color: #9df3c4;
+    margin: 1px;
+    border: 1px solid #feffe4;
+}
+
+.wrongAnswerList {
+    background-color: #fa4659;
+    margin: 1px;
+    border: 1px solid #feffe4;
+}

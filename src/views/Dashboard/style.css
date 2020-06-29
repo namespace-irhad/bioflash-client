@@ -1,0 +1,22 @@
+.home-container {
+    margin: 20px auto;
+    width: 90%;
+}
+
+.spacer {
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color: #086972;
+
+}
+
+.header-dashboard-title {
+    background-color: #071a52;
+    padding: 10px !important;
+    color: #feffe4 !important;
+}
+
+.latest-results-score {
+    color: green;
+}

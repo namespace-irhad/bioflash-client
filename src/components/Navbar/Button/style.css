@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300&display=swap');
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: #feffe4;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 300%;
+    transition: all 0.6s;
+}
+
+.primary-button {
+    border: 2px solid #086972;
+    color: #000000;
+    background-image: linear-gradient(120deg, white 50%, #086972 50%);
+}
+
+.secondary-button {
+    border: 2px solid #feffe4;
+    color: #fff;
+    background-image: linear-gradient(-120deg, white 50%, #086972 50%);
+}
+
+.primary-button:hover,
+.primary-button:active {
+    border-color: #feffe4;
+    color: #fff;
+    background-position: 100%;
+    transform: translateX(0.5rem);
+    -webkit-box-shadow: -7px 6px 15px 0px rgba(167, 255, 131, 0.75);
+    -moz-box-shadow: -7px 6px 15px 0px rgba(167, 255, 131, 0.75);
+    box-shadow: -7px 6px 15px 0px rgba(167, 255, 131, 0.75);
+}
+
+.secondary-button:hover,
+.secondary-button:active {
+    border-color: #086972;
+    color: #000000;
+    background-position: 100%;
+    transform: translateX(0.5rem);
+    -webkit-box-shadow: -7px 6px 15px 0px rgba(167, 255, 131, 0.75);
+    -moz-box-shadow: -7px 6px 15px 0px rgba(167, 255, 131, 0.75);
+    box-shadow: -7px 6px 15px 0px rgba(167, 255, 131, 0.75);
+}

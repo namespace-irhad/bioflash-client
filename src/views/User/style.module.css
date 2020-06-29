@@ -1,0 +1,36 @@
+.select {
+    margin-bottom: 10px;
+}
+
+.userLabel {
+    color: #2eb872;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.headerUser {
+    color: #086972 !important;
+    background-color: #9df3c4;
+    padding: 12px !important;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px !important;
+    border-radius: 5px;
+}
+
+.userInfo {
+    float: right;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.mainHeaderUser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemStyleVirus {
+    display: block;
+    margin-top: 5px;
+}

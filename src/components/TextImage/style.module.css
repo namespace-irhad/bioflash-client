@@ -1,0 +1,18 @@
+.mainImageContainer {
+    width: 100%;
+    position: relative;
+}
+
+.imageContainer {
+    width: 100%;
+    position: relative;
+    border: 2px solid #feffe4;
+}
+
+.textImage {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: #feffe4;
+}

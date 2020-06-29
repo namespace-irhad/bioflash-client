@@ -1,0 +1,33 @@
+.homeGuestContainer {
+    background: url('../../assets/images/background.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 80vh;
+}
+
+.subheaderMain {
+    background-color: #2eb872;
+    color: #feffe4 !important;
+    font-size: 1.2rem !important;
+    max-width: 600px;
+    text-align: center;
+    margin: 10px auto !important;
+    padding: 20px !important;
+}
+
+.paragraphHeader {
+    text-align: center;
+
+}
+
+.stepJoin {
+    margin: 100px auto 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.stepJoin>div {
+    width: 100% !important;
+}

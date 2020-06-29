@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300&display=swap');
+
+.toolbar {
+    height: 64px;
+    background: linear-gradient(90deg, #17b978 20%, #2eb872 20%);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.toolbar-navigation {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.toolbar-logo {
+    padding: 0 2rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo-font {
+    font-family: "Poppins", sans-serif;
+    transition: .5s all;
+}
+
+.toolbar-logo>.logo-font {
+    color: #feffe4;
+    text-decoration: none;
+}
+
+.toolbar-logo>.logo-font:hover {
+    color: #ffffff;
+}
+
+.toolbar-space {
+    flex: 1;
+}
+
+.toolbar-item-list>ul {
+    display: flex;
+    list-style: none;
+}
+
+.toolbar-item-list ul>li {
+    padding: 0 2rem 0 0;
+}
+
+.user-welcome-header {
+    color: #feffe4;
+    margin-right: 20px;
+}
+
+.user-welcome-link,
+.user-welcome-link:visited {
+    color: #a3de83;
+    text-decoration: underline;
+}
